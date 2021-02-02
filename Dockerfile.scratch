@@ -1,0 +1,7 @@
+# Build from scratch for smallest possible secure build
+FROM	scratch
+
+# My Labels
+LABEL	maintainer="Steven Bass"	\
+	github="https://github.com/MacGyverBass"
+

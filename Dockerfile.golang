@@ -1,0 +1,7 @@
+# Build from GoLang
+FROM	golang:alpine3.13
+
+# My Labels
+LABEL	maintainer="Steven Bass"	\
+	github="https://github.com/MacGyverBass"
+

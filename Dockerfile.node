@@ -1,0 +1,7 @@
+# Build from Node LTS
+FROM	node:lts-alpine3.12
+
+# My Labels
+LABEL	maintainer="Steven Bass"	\
+	github="https://github.com/MacGyverBass"
+

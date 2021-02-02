@@ -1,0 +1,7 @@
+# Build from Python 3
+FROM	python:3-alpine3.12
+
+# My Labels
+LABEL	maintainer="Steven Bass"	\
+	github="https://github.com/MacGyverBass"
+
