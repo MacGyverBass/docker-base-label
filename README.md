@@ -12,6 +12,7 @@ Below is a list of my current base image tags used for my Docker projects.
 
 * scratch (used in place of "FROM scratch" in Docker images)
 * alpine
+* busybox
 * golang
 * node
 * python3

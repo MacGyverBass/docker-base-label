@@ -1,0 +1,7 @@
+# Build from Busybox
+FROM	busybox:latest
+
+# My Labels
+LABEL	maintainer="Steven Bass"	\
+	github="https://github.com/MacGyverBass"
+
