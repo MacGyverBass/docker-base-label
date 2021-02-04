@@ -1,5 +1,5 @@
 # Build from Python 3
-FROM	python:3-alpine3.12
+FROM	python:3-alpine3.13
 
 # My Labels
 LABEL	maintainer="Steven Bass"	\
