@@ -1,0 +1,7 @@
+# Build from Debian
+FROM	debian:10-slim
+
+# My Labels
+LABEL	maintainer="Steven Bass"	\
+	github="https://github.com/MacGyverBass"
+

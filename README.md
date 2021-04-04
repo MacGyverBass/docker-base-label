@@ -13,15 +13,18 @@ Below is a list of my current base image tags used for my Docker projects.
 * scratch (used in place of "FROM scratch" in Docker images)
 * alpine
 * busybox
+* debian
 * golang
 * node
+* openjdk
 * python3
+* rust
 
 The above are the tags available for the `macgyverbass/base-label` image.  There is no `latest` tag for this image.
 
 ## Notes
 
-In each of my base images, I use Alpine to keep the image size as small as possible and use the major/minor version number for Alpine to prevent my images from breaking when the major or minor version number updates, which may happen when packages from the newer repository are updated in such a way that may break package installation/usage.
+In most of my base images, I use Alpine to keep the image size as small as possible and use the major/minor version number for Alpine to prevent my images from breaking when the major or minor version number updates, which may happen when packages from the newer repository are updated in such a way that may break package installation/usage.
 
 If you decide to create your own base tagged images like this project, you may choose to use images that leave out the minor version or both the major & minor version, or you may even choose to use a different base image for your projects (e.g. debian or ubuntu).  If you do so, I recommend testing your projects and verifying that they do not break if/when a base image does a major update.
 
